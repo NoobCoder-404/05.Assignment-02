@@ -56,13 +56,20 @@ body {
 .mid-section {
   width: 1321px;
   margin: 100px 110px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 24px;
+  margin-bottom: 0;
 }
+
 .mid-section h3 {
   color: black;
 }
 .mid-section span {
   color: grey;
   margin-left: 10px;
+}
+.display {
 }
 .up-grp-blog {
   display: flex;
@@ -121,4 +128,20 @@ body {
 }
 #space-comment {
   padding-left: 30px;
+}
+.grid-second-item h3 {
+  color: black;
+}
+.grid-second-item span {
+  color: grey;
+  margin-left: 10px;
+}
+.grid-second-item {
+  width: 984px;
+  margin-top: 24px;
+  margin-left: 447px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
 }
